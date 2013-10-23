@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <EditText
+        android:id="@+id/User_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10" 
+        android:hint="@string/enter_username"  >
+
+        <requestFocus />
+          </EditText>
+ 
+    <com.google.android.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:enabled="true"
+        android:clickable="true"
+        android:layout_below="@id/User_Name"
+        android:apiKey="0BhTAf3_OAst1RtMLg6rO9yFeWdd1D-n_pvFqHA"
+        />
+
+    
+  
+ 
+</RelativeLayout>
